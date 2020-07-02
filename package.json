@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "Peter Neumark <neumark.peter@gmail.com>",
   "homepage": "https://github.com/neumark/schemalib",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "main": "index.js",
   "directories": {
     "src": "src",
