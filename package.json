@@ -1,0 +1,35 @@
+{
+  "name": "@neumark/schemalib",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Peter Neumark <neumark.peter@gmail.com>",
+  "homepage": "https://github.com/neumark/schemalib",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx ava"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "ajv-keywords": "^3.4.1"
+  },
+  "devDependencies": {
+    "ava": "^3.5.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neumark/schemalib"
+  }
+}
